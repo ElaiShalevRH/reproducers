@@ -1,6 +1,6 @@
 # long-file-reproducer
 
-This reproducer was designed to prove that serverless workflows created with sonata-flow and quarkus-openapi-generator cannot be built if they are dependant on large yaml files that are needed at build time. 
+This reproducer was designed to prove that serverless workflows created with sonata-flow and quarkus-openapi-generator cannot be built if they are dependent on large yaml files that are needed at build time. 
 
 ## The Issue
 This issue arose while we tried creating workflows that reference functions from large yaml files (here, openAPI spec files). After running `quarkus dev` (or `./mvnw compile quarkus:dev`) to build the workflows, we've encountered the following errors:

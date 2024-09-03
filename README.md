@@ -44,8 +44,8 @@ The way to do so is by configuring objects used by SnakeYAML in the following ma
 
 Clone this repository and cd into it:
 ```
-git clone <add repo link>
-cd repo name
+git clone git@github.com:ElaiShalevRH/reproducers.git
+cd repo reproducers
 ```
 
 Run maven / quarkus to build the project and reproduce the error:
